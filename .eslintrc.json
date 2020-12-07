@@ -1,5 +1,22 @@
 {
     "plugins": [
         "react"
-    ]
+    ],
+    "rules": {
+        "no-empty": "warn",
+        "no-console": "warn",
+        "no-throw-literal": "warn",
+        "arrow-parens": "error",
+        "no-var": "error",
+        "no-trailing-spaces": "warn",
+        "use-isnan": "warn",
+        "prefer-const": "error",
+        "consistent-return": "warn",
+        "no-undef-init": "warn",
+        "no-unreachable": "error",
+        "no-debugger": "warn",
+        "no-nested-ternary": "error",
+        "no-new": "warn",
+        "no-void": "warn"
+    }
 }
